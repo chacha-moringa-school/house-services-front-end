@@ -1,18 +1,14 @@
-import '../styles/App.css';
-import NavBar from './NavBar';
-import Services from './Services';
-import Home from './Home';
-import About from './About';
-import { Routes, Route } from "react-router-dom"
+import { Navigation } from "./components/navigation";
+import { Header } from "./components/header";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <NavBar />
-      <Home />
-
+    <div>
+      <Navigation />
+      <Header />
     </div>
   );
-}
+};
 
 export default App;
