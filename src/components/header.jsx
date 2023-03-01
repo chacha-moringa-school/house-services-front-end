@@ -9,13 +9,15 @@ export const Header = () => {
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
                 <h1 className="bg-secondary">
-                  We are a Landing Page
+                  We are Nice Touch
                   <span></span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  sed dapibus leo nec ornare diam sed commodo nibh ante
-                  facilisis bibendum.
+                  Nice Touch an Online Laundry Platform in Nairobi Kenya with
+                  the latest technology in washing, dry cleaning and laundry.
+                  Our services combine our expertise and experience acquired
+                  over a period of time to provide you with clean laundry in the
+                  shortest possible turnaround time.
                 </p>
                 <a
                   href="#features"
