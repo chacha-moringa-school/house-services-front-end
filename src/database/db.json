@@ -1,0 +1,76 @@
+{
+        "services":[
+        {
+            "id": 1,
+            "name": "Laundry",
+            "description": "Dry cleaning",
+            "price": 600,
+            "created_at": "2023-03-01T14:28:06.295Z",
+            "updated_at": "2023-03-01T14:28:06.295Z",
+            "image_url": "https://images.unsplash.com/photo-1586284359445-2e1d8db7f4cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        },
+        {
+            "id": 2,
+            "name": "Carpet Washing",
+            "description": "Removing dirt, stains, and other contaminants from the carpet fibers",
+            "price": 500,
+            "created_at": "2023-03-01T14:28:06.318Z",
+            "updated_at": "2023-03-01T14:28:06.318Z",
+            "image_url": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+        },
+        {
+            "id": 3,
+            "name": "Ironing",
+            "description": "Suit Ironing| Shirt Ironing| Trench Coat Ironing",
+            "price": 400,
+            "created_at": "2023-03-01T14:28:06.329Z",
+            "updated_at": "2023-03-01T14:28:06.329Z",
+            "image_url": "https://images.unsplash.com/photo-1542663210-8581a465ddd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+            "id": 4,
+            "name": "House Cleaning",
+            "description": "Bedsitter| One Bedroom| Two Bedroom| Three Bedroom| Four/ Five Bedroom",
+            "price": 200,
+            "created_at": "2023-03-01T14:28:06.339Z",
+            "updated_at": "2023-03-01T14:28:06.339Z",
+            "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+            "id": 5,
+            "name": "Compound Cleaning",
+            "description": "Twigs and Leaves| Driveways| Porches",
+            "price": 1000,
+            "created_at": "2023-03-01T14:28:06.347Z",
+            "updated_at": "2023-03-01T14:28:06.347Z",
+            "image_url": "https://images.unsplash.com/photo-1673778797664-e0d41a3d974a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
+        },
+        {
+            "id": 6,
+            "name": "Dish Washing",
+            "description": "Kitchen Utensils",
+            "price": 300,
+            "created_at": "2023-03-01T14:28:06.356Z",
+            "updated_at": "2023-03-01T14:28:06.356Z",
+            "image_url": "https://images.unsplash.com/photo-1462475279937-40cb2b162a99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+        },
+        {
+            "id": 7,
+            "name": "Pest Fumigation",
+            "description": "Bed Bugs| Cocroaches| Ants",
+            "price": 5000,
+            "created_at": "2023-03-01T14:28:06.364Z",
+            "updated_at": "2023-03-01T14:28:06.364Z",
+            "image_url": "https://i.guim.co.uk/img/media/376f51d0a14fa7b1c16d98ae5d6cf48fe6ef48ad/0_197_3600_2160/master/3600.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=87f77b1cffdbd21fcf2b542ea0a8599a"
+        },
+        {
+            "id": 8,
+            "name": "Bees Extermination",
+            "description": "Exterminating bees from your compound for good",
+            "price": 6000,
+            "created_at": "2023-03-01T14:28:06.372Z",
+            "updated_at": "2023-03-01T14:28:06.372Z",
+            "image_url": "https://images.unsplash.com/photo-1531254722074-92eebf4045ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+    ]
+}
