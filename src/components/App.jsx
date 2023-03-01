@@ -1,7 +1,8 @@
 
-import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import "./App.css";
+import { Header } from "./header";
+import { Navigation } from "./navigation";
+
+import "../styles/App.css";
 
 const App = () => {
   
