@@ -342,10 +342,10 @@ header .intro-text {
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #6c6a6a;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(5, 5, 5, 0.75);
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -446,16 +446,16 @@ header .intro-text {
 #team h4 {
   margin: 5px 0;
 }
-#team .team-img {
+img.team-img {
   width: 240px;
+  height: 25vh;
 }
 #team .thumbnail {
   background: transparent;
   border: 0;
 }
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
+.services-card.caption#desc {
+  color: #040404;
 }
 /* Contact Section */
 #contact {
