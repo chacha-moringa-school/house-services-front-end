@@ -5,23 +5,20 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <div class="tabs">
-              <div class="active">
-                <i class="fa fa-bar-chart"></i>Our Services
-              </div>
-              <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Our Services
-                </a>{" "}
+          <h2>Our Services</h2>
           <p>
-          Nice touch was established with the aim to provide outstanding bulk laundry services to schools, Hotels, ball game teams , hospitals and households locally within cities.
+            Nice Touch is the premier Home Support Services Company in
+            Kenya. We provide quality assured Home Cleaning & Support Services.
+            The company is located in Nairobi, Kenya. At Nice Touch, our passion is
+            to enable you enjoy life, to achieve your dream of a life free of
+            needless hassles …. so that you can have time for what really
+            matters to you. 
           </p>
-          </div>
         </div>
+        <a href="#services" className="btn btn-custom btn-lg page-scroll">
+          Get Started
+        </a>{" "}
       </div>
     </div>
   );
 };
-
