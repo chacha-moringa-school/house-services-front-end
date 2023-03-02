@@ -4,6 +4,12 @@ import { Navigation } from "./navigation";
 import { Features } from "./features";
 import { Contact } from "./contact";
 import "../styles/App.css";
+import SmoothScroll from "smooth-scroll";
+
+export const scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 1000,
+  speedAsDuration: true,
+});
 
 const App = () => {
   
