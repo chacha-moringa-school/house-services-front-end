@@ -8,6 +8,7 @@ import { About } from "./about";
 import ServicePage from "./services_page/ServicesPage";
 import "../styles/App.css";
 import SmoothScroll from "smooth-scroll";
+import Create from "./create";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -43,6 +44,7 @@ const App = () => {
                 <Contact />
               </>
             }/>
+            <Route exact path = "/create" element= {<Create /> } />
         </Routes>
       </BrowserRouter>
     </>
