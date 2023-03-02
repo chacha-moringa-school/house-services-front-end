@@ -25,11 +25,12 @@ function Hero() {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            The aim of Nice Touch is to provide outstanding bulk laundry services to schools,
-            Hotels, ball game teams , hospitals and households locally within Nairobi.
+            The aim of Nice Touch is to provide outstanding bulk laundry
+            services to schools, Hotels, ball game teams , hospitals and
+            households locally within Nairobi.
           </p>
         </div>
-        <ul className="cards">{listLoop}</ul>
+        <div class="container">{listLoop}</div>
       </div>
     </div>
   );
