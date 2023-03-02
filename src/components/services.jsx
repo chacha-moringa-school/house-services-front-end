@@ -15,7 +15,7 @@ export const Services = (props) => {
             matters to you. 
           </p>
         </div>
-        <a href="#services" className="btn btn-custom btn-lg page-scroll">
+        <a href="/services" className="btn btn-custom btn-lg">
           Get Started
         </a>{" "}
       </div>
