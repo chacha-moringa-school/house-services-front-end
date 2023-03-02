@@ -5,25 +5,20 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <div class="tabs">
+              <div class="active">
+                <i class="fa fa-bar-chart"></i>Our Services
+              </div>
+              <a
+                  href="#features"
+                  className="btn btn-custom btn-lg page-scroll"
+                >
+                  Our Services
+                </a>{" "}
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Nice touch was established with the aim to provide outstanding bulk laundry services to schools, Hotels, ball game teams , hospitals and households locally within cities.
           </p>
-        </div>
-        <div className="row">
-          {props.services
-            ? props.services.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <div className="service-desc">
-                    <h3>{d.name}</h3>
-                    <p>{d.description}</p>
-                  </div>
-                </div>
-              ))
-            : "loading"}
+          </div>
         </div>
       </div>
     </div>
