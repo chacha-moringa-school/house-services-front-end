@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export const Navigation = (props) => {
   return (
@@ -49,6 +50,9 @@ export const Navigation = (props) => {
               <a href="#contact" className="page-scroll">
                 Contact
               </a>
+            </li>
+            <li>
+              <a href='/create'>Add Service</a>
             </li>
           </ul>
         </div>
