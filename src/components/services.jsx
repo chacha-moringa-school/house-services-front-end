@@ -7,24 +7,17 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Nice Touch is the premier Home Support Services Company in
+            Kenya. We provide quality assured Home Cleaning & Support Services.
+            The company is located in Nairobi, Kenya. At Nice Touch, our passion is
+            to enable you enjoy life, to achieve your dream of a life free of
+            needless hassles …. so that you can have time for what really
+            matters to you. 
           </p>
         </div>
-        <div className="row">
-          {props.services
-            ? props.services.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <div className="service-desc">
-                    <h3>{d.name}</h3>
-                    <p>{d.description}</p>
-                  </div>
-                </div>
-              ))
-            : "loading"}
-        </div>
+        <a href="#services" className="btn btn-custom btn-lg page-scroll">
+          Get Started
+        </a>{" "}
       </div>
     </div>
   );
