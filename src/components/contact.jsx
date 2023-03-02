@@ -126,7 +126,7 @@ export const Contact = () => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href="https://twitter.com/247LS">
+                    <a href="https://www.facebook.com/slsLaundry.ke">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
