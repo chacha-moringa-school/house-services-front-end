@@ -18,6 +18,10 @@ function ListingCard({id, image, description, name, price}) {
     })
   }
 
+  const FunEdit=(id)=>{
+        navigate('/update/'+id)
+    }
+
   return (
      <div id="row" className="services-card">
                 <div key={id} className="col-md-3 col-sm-6 team">
@@ -29,7 +33,7 @@ function ListingCard({id, image, description, name, price}) {
                       <p id = "desc">{description}</p>
                       <h4>Ksh {price}</h4>
                       <div className="d-flex justify-content-between">
-                        <a href="#" className="btn btn-primary">Update</a>
+                        <button className="btn btn-primary" onClick={()=>{FunEdit(id)}}>Update</button>
                         <button type="button" className="btn btn-danger" onClick={handleDelete}>Delete</button>
                       </div>
                     </div>
