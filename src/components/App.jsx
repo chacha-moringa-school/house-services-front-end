@@ -43,8 +43,18 @@ const App = () => {
                 <ServicePage />,
                 <Contact />
               </>
-            }/>
-            <Route exact path = "/create" element= {<Create /> } />
+            }
+          />
+          <Route
+            exact
+            path="/create"
+            element={
+              <>
+                <Navigation />,
+                <Create />
+              </>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </>
