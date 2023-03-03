@@ -1,6 +1,21 @@
 import React from "react";
+import { useNavigate ,useParams } from "react-router-dom";
+import { Services } from "../services";
+import useFetch from "./useFetch";
 
 function ListingCard({id, image, description, name, price}) {
+
+  const {data} = useFetch(`http://localhost:4000/services/${id}`)
+
+  const handleDelete = () =>{
+    fetch(`http://localhost:4000/services/${data.id}`, {
+            method: 'DELETE'
+    })
+    .then((res)=>{
+        return res.json()})
+    .then((data)=>{console.log(data)})
+  }
+
   return (
      <div id="row" className="services-card">
                 <div key={id} className="col-md-3 col-sm-6 team">
@@ -11,7 +26,10 @@ function ListingCard({id, image, description, name, price}) {
                       <h3>{name}</h3>
                       <p id = "desc">{description}</p>
                       <h4>Ksh {price}</h4>
-                      <a href="#" className="btn btn-primary">Update</a>
+                      <div className="d-flex justify-content-between">
+                        <a href="#" className="btn btn-primary">Update</a>
+                        <button type="button" className="btn btn-danger" onClick={handleDelete}>Delete</button>
+                      </div>
                     </div>
                   </div>
                 </div>
