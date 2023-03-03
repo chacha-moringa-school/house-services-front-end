@@ -33,7 +33,7 @@ function ListingCard({id, image, description, name, price}) {
                       <p id = "desc">{description}</p>
                       <h4>Ksh {price}</h4>
                       <div className="d-flex justify-content-between">
-                        <button className="btn btn-primary" onClick={()=>{FunEdit(id)}}>Update</button>
+                        <button className="btn btn-primary" onClick={()=>{FunEdit(id)}}>Update</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <button type="button" className="btn btn-danger" onClick={handleDelete}>Delete</button>
                       </div>
                     </div>
