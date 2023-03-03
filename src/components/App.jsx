@@ -9,6 +9,7 @@ import ServicePage from "./services_page/Hero";
 import "../styles/App.css";
 import SmoothScroll from "smooth-scroll";
 import Create from "./create";
+import Update from "./update";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -52,6 +53,16 @@ const App = () => {
               <>
                 <Navigation />,
                 <Create />
+              </>
+            }
+          />
+          <Route
+            exact
+            path="/update/:servid"
+            element={
+              <>
+                <Navigation />,
+                <Update />
               </>
             }
           />
