@@ -4,6 +4,7 @@ import { Services } from "../services";
 import useFetch from "./useFetch";
 
 function ListingCard({id, image, description, name, price}) {
+  let navigate = useNavigate();
 
   const {data} = useFetch(`http://localhost:4000/services/${id}`)
 
@@ -11,9 +12,10 @@ function ListingCard({id, image, description, name, price}) {
     fetch(`http://localhost:4000/services/${data.id}`, {
             method: 'DELETE'
     })
-    .then((res)=>{
-        return res.json()})
-    .then((data)=>{console.log(data)})
+    .then(()=>{
+      window.location.reload();
+      navigate("/services");
+    })
   }
 
   return (
@@ -34,18 +36,6 @@ function ListingCard({id, image, description, name, price}) {
                   </div>
                 </div>
         </div>
-    
-    // <li className="cardcard col-12 col-md-4 col-xl-3 col-xxl-2 text-start bg-dark text-white shadow m-3">
-      // <div className="card" style="width: 18rem;">
-      //   <img src={image} className="card-img-top" alt="..."/>
-      //   <div className="card-body">
-      //     <h5 className="card-title">{name}</h5>
-      //     <p className="card-text">{description}</p>
-      //     <h5 className="card-title">Ksh {price}</h5>
-      //     <a href="#" className="btn btn-primary">Update</a>
-      //   </div>
-      // </div>
-    // </li>
   );
 }
 

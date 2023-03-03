@@ -5,7 +5,7 @@ import { Features } from "./features";
 import { Contact } from "./contact";
 import { Services } from "./services";
 import { About } from "./about";
-import ServicePage from "./services_page/ServicesPage";
+import ServicePage from "./services_page/Hero";
 import "../styles/App.css";
 import SmoothScroll from "smooth-scroll";
 import Create from "./create";
