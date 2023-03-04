@@ -1,3 +1,12 @@
+.btn {
+  margin: 2px;
+  ;
+}
+
+.divbtn {
+  float: left;
+}
+
 @media screen and (max-width: 400px) {
   #features {
     padding: 20px;

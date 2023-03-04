@@ -313,6 +313,31 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
 }
+#services table {
+  overflow-x: auto;
+  width: 100%;
+}
+#services tbody>tr>:nth-child(3) {
+  width: 200px;
+}
+#services tbody>tr>:nth-child(4) {
+  width: 30%;
+  word-break: break-all;
+}
+#services th,
+td {
+  border: 1px solid black;
+  overflow: hidden;
+}
+#services tr{
+  color: white;
+}
+#services tr:nth-child(even) {
+  background-color: #73aefb;
+}
+#services thead {
+  background-color: #090909;
+}
 #services .service-desc {
   margin: 10px 10px 20px;
 }
@@ -753,3 +778,32 @@ label {
     margin: 50px 0;
   }
 }
+
+/* @media (max-width: 767px) {
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (min-width: 768px) {
+  .table-responsive {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 992px) {
+  .table-responsive {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+  .table-responsive {
+    width: 100%;
+    overflow-x: hidden;
+  }
+} */
