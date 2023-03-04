@@ -19,7 +19,7 @@ const Create = () => {
       body: JSON.stringify(service),
     })
       .then((res) => {
-        navigate("/services");
+        navigate("/admin");
         return res.json();
       })
       .then((data) => {
@@ -107,6 +107,9 @@ const Create = () => {
                   Submit
                 </button>
               </form>
+              <a href="/admin" className="btn btn-success">
+                Admin Dashboard
+              </a>
             </div>
           </div>
         </div>

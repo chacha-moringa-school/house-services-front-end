@@ -52,7 +52,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='/create'>Add Service</a>
+              <a href='/login'>Admin</a>
             </li>
           </ul>
         </div>

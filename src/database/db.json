@@ -10,13 +10,11 @@
       "image_url": "https://images.unsplash.com/photo-1586284359445-2e1d8db7f4cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
     },
     {
-      "id": 2,
       "name": "Carpet Washing",
       "description": "Removing dirt, stains, and other contaminants from the carpet fibers",
-      "price": 500,
-      "created_at": "2023-03-01T14:28:06.318Z",
-      "updated_at": "2023-03-01T14:28:06.318Z",
-      "image_url": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+      "price": "1500",
+      "image_url": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "id": 2
     },
     {
       "id": 3,
@@ -55,15 +53,15 @@
     {
       "name": "Pest Fumigation",
       "description": "Bed Bugs| Cocroaches| Ants",
-      "price": "6000",
+      "price": "3000",
       "image_url": "https://i.guim.co.uk/img/media/376f51d0a14fa7b1c16d98ae5d6cf48fe6ef48ad/0_197_3600_2160/master/3600.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=87f77b1cffdbd21fcf2b542ea0a8599a",
       "id": 7
     },
     {
       "name": "Gardening",
-      "description": "Garden weeding and planting of Flowers",
-      "price": "1000",
-      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHZ24BY4J81UwgC-qqmoTQCaMQ89Qc5XbZRBQq6sF&s",
+      "description": "gardening",
+      "price": "800",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcMhHYyc5KNCQWH6VULYiI3fAe_Q5k5e6F_w&usqp=CAU",
       "id": 8
     }
   ]

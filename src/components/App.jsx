@@ -10,6 +10,9 @@ import "../styles/App.css";
 import SmoothScroll from "smooth-scroll";
 import Create from "./create";
 import Update from "./update";
+import Service from "./admin/Service";
+import Login from "./admin/Login";
+import Dashboard from "./admin/Dashboard";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -48,22 +51,41 @@ const App = () => {
           />
           <Route
             exact
-            path="/create"
+            path="/login"
+            element={
+                <Login />
+            }
+          />
+          <Route
+            exact
+            path="/admin"
             element={
               <>
-                <Navigation />,
-                <Create />
+                <Dashboard />
               </>
             }
           />
           <Route
             exact
-            path="/update/:servid"
+            path="/admin/dashboard/:id"
             element={
               <>
-                <Navigation />,
-                <Update />
+                <Service />
               </>
+            }
+          />
+          <Route
+            exact
+            path="/create"
+            element={
+                <Create />
+              }
+          />
+          <Route
+            exact
+            path="/update/:servid"
+            element={
+                <Update />
             }
           />
         </Routes>
