@@ -11,28 +11,38 @@ const Update = () => {
   let navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:4000/services/" + servid).then((res) => {
+    fetch(
+      "https://house-service-backend-production.up.railway.app/services/" +
+        servid
+    )
+      .then((res) => {
         return res.json();
-    }).then((res) => {
+      })
+      .then((res) => {
         // console.log(res);
         setName(res.name);
         setDescription(res.description);
-        setPrice(res.price)
-        setImageUrl(res.image_url)
-    }).catch((err)=>{
+        setPrice(res.price);
+        setImageUrl(res.image_url);
+      })
+      .catch((err) => {
         console.log(err.message);
-    })
+      });
   }, []);
 
   const handleSubmit = (ev) => {
     ev.preventDefault();
     const service = { name, description, price, image_url };
 
-    fetch("http://localhost:4000/services/"+servid, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(service),
-    })
+    fetch(
+      "https://house-service-backend-production.up.railway.app/services/" +
+        servid,
+      {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(service),
+      }
+    )
       .then((res) => {
         navigate("/admin");
         return res.json();

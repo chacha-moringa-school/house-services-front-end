@@ -4,7 +4,9 @@ import ListingCard from "./ListingCard";
 
 
 function Hero() {
-    const { data } = useFetch("http://localhost:4000/services");
+    const { data } = useFetch(
+      "https://house-service-backend-production.up.railway.app/services"
+    );
 
     const listLoop = data.map((listing) => {
       return (

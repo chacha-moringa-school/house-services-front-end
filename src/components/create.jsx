@@ -13,7 +13,7 @@ const Create = () => {
     ev.preventDefault();
     const service = { name, description, price, image_url };
 
-    fetch("http://localhost:4000/services", {
+    fetch("https://house-service-backend-production.up.railway.app/services", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(service),
