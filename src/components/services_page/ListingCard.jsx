@@ -6,7 +6,9 @@ import useFetch from "./useFetch";
 function ListingCard({id, image, description, name, price}) {
   let navigate = useNavigate();
 
-  const {data} = useFetch(`http://localhost:4000/services/${id}`)
+  const { data } = useFetch(
+    `https://house-service-backend-production.up.railway.app/services/${id}`
+  );
 
   return (
      <div id="row" className="services-card">

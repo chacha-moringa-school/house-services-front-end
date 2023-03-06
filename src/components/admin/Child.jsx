@@ -13,9 +13,13 @@ const Child = () => {
   };
   const Removefunction = (id) => {
     if (window.confirm("Do you want to remove?")) {
-      fetch("http://localhost:4000/services/" + id, {
-        method: "DELETE",
-      })
+      fetch(
+        "https://house-service-backend-production.up.railway.app/services/" +
+          id,
+        {
+          method: "DELETE",
+        }
+      )
         .then((res) => {
           alert("Removed successfully.");
           window.location.reload();
@@ -27,7 +31,7 @@ const Child = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:4000/services")
+    fetch("https://house-service-backend-production.up.railway.app/services")
       .then((res) => {
         return res.json();
       })
