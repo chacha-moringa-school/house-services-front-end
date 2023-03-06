@@ -8,9 +8,7 @@ const Service = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch(
-      `https://house-service-backend-production.up.railway.app/services/${id}`
-    )
+    fetch(`https://house-service-backend-production.up.railway.app/services/${id}`)
       .then((response) => response.json())
       .then((service) => setService(service));
     setLoading(false);
